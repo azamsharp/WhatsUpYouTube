@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D98357D29BF99F2009BC676 /* WhatsUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D98357C29BF99F2009BC676 /* WhatsUpApp.swift */; };
+		8D98357F29BF99F2009BC676 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D98357E29BF99F2009BC676 /* ContentView.swift */; };
+		8D98358129BF99F3009BC676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D98358029BF99F3009BC676 /* Assets.xcassets */; };
+		8D98358429BF99F3009BC676 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D98358329BF99F3009BC676 /* Preview Assets.xcassets */; };
+		8D98358B29BF9A98009BC676 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D98358A29BF9A98009BC676 /* GoogleService-Info.plist */; };
+		8D98358E29BF9B2D009BC676 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 8D98358D29BF9B2D009BC676 /* FirebaseAuth */; };
+		8D98359029BF9B2D009BC676 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 8D98358F29BF9B2D009BC676 /* FirebaseFirestore */; };
+		8D98359229BF9B2D009BC676 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8D98359129BF9B2D009BC676 /* FirebaseFirestoreSwift */; };
+		8D98359429BF9B2D009BC676 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 8D98359329BF9B2D009BC676 /* FirebaseStorage */; };
+		8D98359729BFA142009BC676 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D98359629BFA142009BC676 /* SignUpView.swift */; };
+		8D98359A29BFA1FC009BC676 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D98359929BFA1FC009BC676 /* String+Extensions.swift */; };
+		8D98359D29BFAECB009BC676 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D98359C29BFAECB009BC676 /* Model.swift */; };
+		8D98359F29BFB135009BC676 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D98359E29BFB135009BC676 /* LoginView.swift */; };
+		8D9835A129BFB99E009BC676 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9835A029BFB99E009BC676 /* MainView.swift */; };
+		8D9835A329BFEA58009BC676 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9835A229BFEA58009BC676 /* AppState.swift */; };
+		8D9835A529BFF134009BC676 /* GroupListContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9835A429BFF134009BC676 /* GroupListContainerView.swift */; };
+		8D9835A729BFF1DA009BC676 /* AddNewGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9835A629BFF1DA009BC676 /* AddNewGroupView.swift */; };
+		8D9835C329C0E6E0009BC676 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9835C229C0E6E0009BC676 /* Group.swift */; };
+		8D9835C629C0F1A4009BC676 /* GroupListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9835C529C0F1A4009BC676 /* GroupListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D98357929BF99F2009BC676 /* WhatsUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D98357C29BF99F2009BC676 /* WhatsUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsUpApp.swift; sourceTree = "<group>"; };
+		8D98357E29BF99F2009BC676 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8D98358029BF99F3009BC676 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D98358329BF99F3009BC676 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8D98358A29BF9A98009BC676 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8D98359629BFA142009BC676 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		8D98359929BFA1FC009BC676 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		8D98359C29BFAECB009BC676 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		8D98359E29BFB135009BC676 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		8D9835A029BFB99E009BC676 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8D9835A229BFEA58009BC676 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		8D9835A429BFF134009BC676 /* GroupListContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupListContainerView.swift; sourceTree = "<group>"; };
+		8D9835A629BFF1DA009BC676 /* AddNewGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewGroupView.swift; sourceTree = "<group>"; };
+		8D9835C229C0E6E0009BC676 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		8D9835C429C0EE71009BC676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D9835C529C0F1A4009BC676 /* GroupListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D98357629BF99F2009BC676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D98358E29BF9B2D009BC676 /* FirebaseAuth in Frameworks */,
+				8D98359429BF9B2D009BC676 /* FirebaseStorage in Frameworks */,
+				8D98359029BF9B2D009BC676 /* FirebaseFirestore in Frameworks */,
+				8D98359229BF9B2D009BC676 /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D98357029BF99F2009BC676 = {
+			isa = PBXGroup;
+			children = (
+				8D98357B29BF99F2009BC676 /* WhatsUp */,
+				8D98357A29BF99F2009BC676 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D98357A29BF99F2009BC676 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D98357929BF99F2009BC676 /* WhatsUp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D98357B29BF99F2009BC676 /* WhatsUp */ = {
+			isa = PBXGroup;
+			children = (
+				8D9835C429C0EE71009BC676 /* Info.plist */,
+				8D98359B29BFAEC0009BC676 /* Models */,
+				8D98359829BFA1EB009BC676 /* Extensions */,
+				8D98359529BFA136009BC676 /* Views */,
+				8D98357C29BF99F2009BC676 /* WhatsUpApp.swift */,
+				8D98357E29BF99F2009BC676 /* ContentView.swift */,
+				8D98358A29BF9A98009BC676 /* GoogleService-Info.plist */,
+				8D98358029BF99F3009BC676 /* Assets.xcassets */,
+				8D98358229BF99F3009BC676 /* Preview Content */,
+			);
+			path = WhatsUp;
+			sourceTree = "<group>";
+		};
+		8D98358229BF99F3009BC676 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8D98358329BF99F3009BC676 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8D98359529BFA136009BC676 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8D98359629BFA142009BC676 /* SignUpView.swift */,
+				8D98359E29BFB135009BC676 /* LoginView.swift */,
+				8D9835A029BFB99E009BC676 /* MainView.swift */,
+				8D9835A429BFF134009BC676 /* GroupListContainerView.swift */,
+				8D9835A629BFF1DA009BC676 /* AddNewGroupView.swift */,
+				8D9835C529C0F1A4009BC676 /* GroupListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8D98359829BFA1EB009BC676 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8D98359929BFA1FC009BC676 /* String+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8D98359B29BFAEC0009BC676 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8D98359C29BFAECB009BC676 /* Model.swift */,
+				8D9835A229BFEA58009BC676 /* AppState.swift */,
+				8D9835C229C0E6E0009BC676 /* Group.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D98357829BF99F2009BC676 /* WhatsUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D98358729BF99F3009BC676 /* Build configuration list for PBXNativeTarget "WhatsUp" */;
+			buildPhases = (
+				8D98357529BF99F2009BC676 /* Sources */,
+				8D98357629BF99F2009BC676 /* Frameworks */,
+				8D98357729BF99F2009BC676 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhatsUp;
+			packageProductDependencies = (
+				8D98358D29BF9B2D009BC676 /* FirebaseAuth */,
+				8D98358F29BF9B2D009BC676 /* FirebaseFirestore */,
+				8D98359129BF9B2D009BC676 /* FirebaseFirestoreSwift */,
+				8D98359329BF9B2D009BC676 /* FirebaseStorage */,
+			);
+			productName = WhatsUp;
+			productReference = 8D98357929BF99F2009BC676 /* WhatsUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D98357129BF99F2009BC676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					8D98357829BF99F2009BC676 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 8D98357429BF99F2009BC676 /* Build configuration list for PBXProject "WhatsUp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D98357029BF99F2009BC676;
+			packageReferences = (
+				8D98358C29BF9B2D009BC676 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 8D98357A29BF99F2009BC676 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D98357829BF99F2009BC676 /* WhatsUp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D98357729BF99F2009BC676 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D98358429BF99F3009BC676 /* Preview Assets.xcassets in Resources */,
+				8D98358129BF99F3009BC676 /* Assets.xcassets in Resources */,
+				8D98358B29BF9A98009BC676 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D98357529BF99F2009BC676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D9835C329C0E6E0009BC676 /* Group.swift in Sources */,
+				8D98359F29BFB135009BC676 /* LoginView.swift in Sources */,
+				8D9835A729BFF1DA009BC676 /* AddNewGroupView.swift in Sources */,
+				8D9835A129BFB99E009BC676 /* MainView.swift in Sources */,
+				8D98359D29BFAECB009BC676 /* Model.swift in Sources */,
+				8D9835A329BFEA58009BC676 /* AppState.swift in Sources */,
+				8D98359A29BFA1FC009BC676 /* String+Extensions.swift in Sources */,
+				8D98357F29BF99F2009BC676 /* ContentView.swift in Sources */,
+				8D9835A529BFF134009BC676 /* GroupListContainerView.swift in Sources */,
+				8D98359729BFA142009BC676 /* SignUpView.swift in Sources */,
+				8D9835C629C0F1A4009BC676 /* GroupListView.swift in Sources */,
+				8D98357D29BF99F2009BC676 /* WhatsUpApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8D98358529BF99F3009BC676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D98358629BF99F3009BC676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D98358829BF99F3009BC676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WhatsUp/Preview Content\"";
+				DEVELOPMENT_TEAM = B2Q8EGNCQA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WhatsUp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.WhatsUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D98358929BF99F3009BC676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WhatsUp/Preview Content\"";
+				DEVELOPMENT_TEAM = B2Q8EGNCQA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WhatsUp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.WhatsUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D98357429BF99F2009BC676 /* Build configuration list for PBXProject "WhatsUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D98358529BF99F3009BC676 /* Debug */,
+				8D98358629BF99F3009BC676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D98358729BF99F3009BC676 /* Build configuration list for PBXNativeTarget "WhatsUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D98358829BF99F3009BC676 /* Debug */,
+				8D98358929BF99F3009BC676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8D98358C29BF9B2D009BC676 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8D98358D29BF9B2D009BC676 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D98358C29BF9B2D009BC676 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		8D98358F29BF9B2D009BC676 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D98358C29BF9B2D009BC676 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		8D98359129BF9B2D009BC676 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D98358C29BF9B2D009BC676 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		8D98359329BF9B2D009BC676 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D98358C29BF9B2D009BC676 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8D98357129BF99F2009BC676 /* Project object */;
+}
